@@ -50,8 +50,8 @@ def limite(porcentaje):#Mandamos el porcentaje que queremos reducir
         limite=(longi*porcentaje)/100 #calculamos el limite a partir del porcentaje
         return (int(limite))
 
-newc=c-limite(5)# El menor valor  en un limite de 5% 
-newd=d+limite(5)# El menor valor en un limite de 95%
+newc=c+limite(5)# El menor valor  en un limite de 5% 
+newd=d-limite(5)# El menor valor en un limite de 95%
 
 
 
